@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/kaldi/code/!svn/ver/4807/trunk/egs/librispeech/s5/local/nnet2
+END
+run_7a_960.sh
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/kaldi/code/!svn/ver/4789/trunk/egs/librispeech/s5/local/nnet2/run_7a_960.sh
+END
+run_5a_clean_100.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/kaldi/code/!svn/ver/4789/trunk/egs/librispeech/s5/local/nnet2/run_5a_clean_100.sh
+END
+run_5c.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/kaldi/code/!svn/ver/4504/trunk/egs/librispeech/s5/local/nnet2/run_5c.sh
+END
+run_6a_clean_460.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/kaldi/code/!svn/ver/4789/trunk/egs/librispeech/s5/local/nnet2/run_6a_clean_460.sh
+END

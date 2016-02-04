@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/kaldi/code/!svn/ver/4904/trunk/egs/wsj/s5/utils/nnet
+END
+gen_splice.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/kaldi/code/!svn/ver/3256/trunk/egs/wsj/s5/utils/nnet/gen_splice.py
+END
+gen_hamm_mat.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/kaldi/code/!svn/ver/3256/trunk/egs/wsj/s5/utils/nnet/gen_hamm_mat.py
+END
+make_cnn_proto.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/kaldi/code/!svn/ver/4470/trunk/egs/wsj/s5/utils/nnet/make_cnn_proto.py
+END
+make_lstm_proto.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/kaldi/code/!svn/ver/4904/trunk/egs/wsj/s5/utils/nnet/make_lstm_proto.py
+END
+gen_dct_mat.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/kaldi/code/!svn/ver/3256/trunk/egs/wsj/s5/utils/nnet/gen_dct_mat.py
+END
+make_nnet_proto.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/kaldi/code/!svn/ver/4804/trunk/egs/wsj/s5/utils/nnet/make_nnet_proto.py
+END

@@ -1,0 +1,6 @@
+# Running on a03
+# Started at Tue Sep 9 17:40:28 EDT 2014
+# local/g2p.sh data/local/dict/g2p/vocab_autogen.5 /export/a15/vpanayotov/data/g2p data/local/dict/g2p/lexicon_autogen.5 
+stack usage:  1832
+# Accounting: time=112 threads=1
+# Finished at Tue Sep 9 17:42:20 EDT 2014 with status 0

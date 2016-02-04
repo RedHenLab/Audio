@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/kaldi/code/!svn/ver/4865/trunk/egs/librispeech/s5/local/online
+END
+run_nnet2_ms.sh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/kaldi/code/!svn/ver/4789/trunk/egs/librispeech/s5/local/online/run_nnet2_ms.sh
+END
+run_nnet2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/kaldi/code/!svn/ver/4865/trunk/egs/librispeech/s5/local/online/run_nnet2.sh
+END
+run_nnet2_ms_disc.sh
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/kaldi/code/!svn/ver/4789/trunk/egs/librispeech/s5/local/online/run_nnet2_ms_disc.sh
+END
+run_nnet2_disc.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/kaldi/code/!svn/ver/4789/trunk/egs/librispeech/s5/local/online/run_nnet2_disc.sh
+END
+run_nnet2_common.sh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/kaldi/code/!svn/ver/4765/trunk/egs/librispeech/s5/local/online/run_nnet2_common.sh
+END

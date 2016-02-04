@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/kaldi/code/!svn/ver/4889/trunk/egs/wsj/s5/steps/online
+END
+prepare_online_decoding.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/kaldi/code/!svn/ver/4656/trunk/egs/wsj/s5/steps/online/prepare_online_decoding.sh
+END
+decode.sh
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/kaldi/code/!svn/ver/4361/trunk/egs/wsj/s5/steps/online/decode.sh
+END

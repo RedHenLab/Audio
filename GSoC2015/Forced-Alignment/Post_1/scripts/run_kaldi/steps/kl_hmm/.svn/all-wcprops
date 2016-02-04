@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/kaldi/code/!svn/ver/4807/trunk/egs/wsj/s5/steps/kl_hmm
+END
+decode_kl_hmm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/kaldi/code/!svn/ver/3998/trunk/egs/wsj/s5/steps/kl_hmm/decode_kl_hmm.sh
+END
+build_tree.sh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/kaldi/code/!svn/ver/3241/trunk/egs/wsj/s5/steps/kl_hmm/build_tree.sh
+END
+train_kl_hmm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/kaldi/code/!svn/ver/3241/trunk/egs/wsj/s5/steps/kl_hmm/train_kl_hmm.sh
+END

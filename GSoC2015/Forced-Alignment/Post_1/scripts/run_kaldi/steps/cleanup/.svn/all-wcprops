@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/p/kaldi/code/!svn/ver/4877/trunk/egs/wsj/s5/steps/cleanup
+END
+debug_lexicon.sh
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/kaldi/code/!svn/ver/4731/trunk/egs/wsj/s5/steps/cleanup/debug_lexicon.sh
+END
+make_transcript_graph.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/kaldi/code/!svn/ver/4877/trunk/egs/wsj/s5/steps/cleanup/make_transcript_graph.sh
+END
+make_utterance_fsts.pl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/kaldi/code/!svn/ver/4241/trunk/egs/wsj/s5/steps/cleanup/make_utterance_fsts.pl
+END
+make_segmentation_graph.sh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/p/kaldi/code/!svn/ver/4877/trunk/egs/wsj/s5/steps/cleanup/make_segmentation_graph.sh
+END
+create_segments_from_ctm.pl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/p/kaldi/code/!svn/ver/4800/trunk/egs/wsj/s5/steps/cleanup/create_segments_from_ctm.pl
+END
+decode_segmentation.sh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/kaldi/code/!svn/ver/4728/trunk/egs/wsj/s5/steps/cleanup/decode_segmentation.sh
+END
+make_segmentation_data_dir.sh
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/kaldi/code/!svn/ver/4800/trunk/egs/wsj/s5/steps/cleanup/make_segmentation_data_dir.sh
+END
+split_long_utterance.sh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/p/kaldi/code/!svn/ver/4783/trunk/egs/wsj/s5/steps/cleanup/split_long_utterance.sh
+END
+find_bad_utts.sh
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/kaldi/code/!svn/ver/4731/trunk/egs/wsj/s5/steps/cleanup/find_bad_utts.sh
+END

@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/p/kaldi/code/!svn/ver/4899/trunk/egs/wsj/s5/steps/nnet2
+END
+update_nnet.sh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/kaldi/code/!svn/ver/4409/trunk/egs/wsj/s5/steps/nnet2/update_nnet.sh
+END
+train_multilang2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/kaldi/code/!svn/ver/4766/trunk/egs/wsj/s5/steps/nnet2/train_multilang2.sh
+END
+convert_lda_to_raw.sh
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/kaldi/code/!svn/ver/4283/trunk/egs/wsj/s5/steps/nnet2/convert_lda_to_raw.sh
+END
+dump_bottleneck_features.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/kaldi/code/!svn/ver/4492/trunk/egs/wsj/s5/steps/nnet2/dump_bottleneck_features.sh
+END
+get_perturbed_feats.sh
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/kaldi/code/!svn/ver/4361/trunk/egs/wsj/s5/steps/nnet2/get_perturbed_feats.sh
+END
+train_more2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/kaldi/code/!svn/ver/4696/trunk/egs/wsj/s5/steps/nnet2/train_more2.sh
+END
+create_appended_model.sh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/kaldi/code/!svn/ver/4493/trunk/egs/wsj/s5/steps/nnet2/create_appended_model.sh
+END
+train_pnorm_simple2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/kaldi/code/!svn/ver/4735/trunk/egs/wsj/s5/steps/nnet2/train_pnorm_simple2.sh
+END
+train_pnorm_multisplice2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/kaldi/code/!svn/ver/4735/trunk/egs/wsj/s5/steps/nnet2/train_pnorm_multisplice2.sh
+END
+train_block.sh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/kaldi/code/!svn/ver/4409/trunk/egs/wsj/s5/steps/nnet2/train_block.sh
+END
+make_denlats.sh
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/kaldi/code/!svn/ver/4673/trunk/egs/wsj/s5/steps/nnet2/make_denlats.sh
+END
+train_discriminative2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/kaldi/code/!svn/ver/4899/trunk/egs/wsj/s5/steps/nnet2/train_discriminative2.sh
+END
+get_egs_discriminative2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/kaldi/code/!svn/ver/4673/trunk/egs/wsj/s5/steps/nnet2/get_egs_discriminative2.sh
+END
+convert_nnet1_to_nnet2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/p/kaldi/code/!svn/ver/4317/trunk/egs/wsj/s5/steps/nnet2/convert_nnet1_to_nnet2.sh
+END
+retrain_simple2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/kaldi/code/!svn/ver/4735/trunk/egs/wsj/s5/steps/nnet2/retrain_simple2.sh
+END
+get_egs2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/kaldi/code/!svn/ver/4842/trunk/egs/wsj/s5/steps/nnet2/get_egs2.sh
+END
+train_more.sh
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/kaldi/code/!svn/ver/4673/trunk/egs/wsj/s5/steps/nnet2/train_more.sh
+END
+train_multisplice_accel2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/kaldi/code/!svn/ver/4842/trunk/egs/wsj/s5/steps/nnet2/train_multisplice_accel2.sh
+END
+train_pnorm_simple.sh
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/kaldi/code/!svn/ver/4735/trunk/egs/wsj/s5/steps/nnet2/train_pnorm_simple.sh
+END
+train_tanh_bottleneck.sh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/kaldi/code/!svn/ver/4317/trunk/egs/wsj/s5/steps/nnet2/train_tanh_bottleneck.sh
+END
+train_pnorm_ensemble.sh
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/kaldi/code/!svn/ver/4735/trunk/egs/wsj/s5/steps/nnet2/train_pnorm_ensemble.sh
+END
+relabel_egs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/kaldi/code/!svn/ver/4614/trunk/egs/wsj/s5/steps/nnet2/relabel_egs.sh
+END
+train_pnorm_fast.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/kaldi/code/!svn/ver/4735/trunk/egs/wsj/s5/steps/nnet2/train_pnorm_fast.sh
+END
+train_discriminative.sh
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/kaldi/code/!svn/ver/4899/trunk/egs/wsj/s5/steps/nnet2/train_discriminative.sh
+END
+get_lda_block.sh
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/kaldi/code/!svn/ver/3947/trunk/egs/wsj/s5/steps/nnet2/get_lda_block.sh
+END
+get_egs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/kaldi/code/!svn/ver/4673/trunk/egs/wsj/s5/steps/nnet2/get_egs.sh
+END
+make_multisplice_configs.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/p/kaldi/code/!svn/ver/4681/trunk/egs/wsj/s5/steps/nnet2/make_multisplice_configs.py
+END
+retrain_tanh.sh
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/kaldi/code/!svn/ver/3298/trunk/egs/wsj/s5/steps/nnet2/retrain_tanh.sh
+END
+train_pnorm_bottleneck_fast.sh
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/kaldi/code/!svn/ver/4735/trunk/egs/wsj/s5/steps/nnet2/train_pnorm_bottleneck_fast.sh
+END
+retrain_fast.sh
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/kaldi/code/!svn/ver/4735/trunk/egs/wsj/s5/steps/nnet2/retrain_fast.sh
+END
+decode.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/kaldi/code/!svn/ver/4889/trunk/egs/wsj/s5/steps/nnet2/decode.sh
+END
+relabel_egs2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/kaldi/code/!svn/ver/4877/trunk/egs/wsj/s5/steps/nnet2/relabel_egs2.sh
+END
+train_tanh.sh
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/kaldi/code/!svn/ver/4409/trunk/egs/wsj/s5/steps/nnet2/train_tanh.sh
+END
+train_pnorm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/kaldi/code/!svn/ver/4735/trunk/egs/wsj/s5/steps/nnet2/train_pnorm.sh
+END
+align.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/kaldi/code/!svn/ver/4673/trunk/egs/wsj/s5/steps/nnet2/align.sh
+END
+remove_egs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/kaldi/code/!svn/ver/4681/trunk/egs/wsj/s5/steps/nnet2/remove_egs.sh
+END
+get_num_frames.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/kaldi/code/!svn/ver/4673/trunk/egs/wsj/s5/steps/nnet2/get_num_frames.sh
+END
+get_lda.sh
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/kaldi/code/!svn/ver/4597/trunk/egs/wsj/s5/steps/nnet2/get_lda.sh
+END
+train_pnorm_accel2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/kaldi/code/!svn/ver/4880/trunk/egs/wsj/s5/steps/nnet2/train_pnorm_accel2.sh
+END
+train_pnorm_multisplice.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/p/kaldi/code/!svn/ver/4735/trunk/egs/wsj/s5/steps/nnet2/train_pnorm_multisplice.sh
+END
+train_tanh_fast.sh
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/kaldi/code/!svn/ver/4693/trunk/egs/wsj/s5/steps/nnet2/train_tanh_fast.sh
+END
+train_discriminative_multilang2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/kaldi/code/!svn/ver/4766/trunk/egs/wsj/s5/steps/nnet2/train_discriminative_multilang2.sh
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/kaldi/code/!svn/ver/4807/trunk/egs/librispeech/s5/local/lm/python
+END
+text_pre_process.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/p/kaldi/code/!svn/ver/4504/trunk/egs/librispeech/s5/local/lm/python/text_pre_process.py
+END
+pre_filter.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/p/kaldi/code/!svn/ver/4504/trunk/egs/librispeech/s5/local/lm/python/pre_filter.py
+END
+text_post_process.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/p/kaldi/code/!svn/ver/4504/trunk/egs/librispeech/s5/local/lm/python/text_post_process.py
+END

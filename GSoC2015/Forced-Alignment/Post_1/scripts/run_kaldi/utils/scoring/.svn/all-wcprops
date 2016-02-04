@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/p/kaldi/code/!svn/ver/4864/trunk/egs/wsj/s5/utils/scoring
+END
+wer_per_spk_details.pl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/kaldi/code/!svn/ver/4811/trunk/egs/wsj/s5/utils/scoring/wer_per_spk_details.pl
+END
+wer_ops_details.pl
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/p/kaldi/code/!svn/ver/4864/trunk/egs/wsj/s5/utils/scoring/wer_ops_details.pl
+END
+wer_per_utt_details.pl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/kaldi/code/!svn/ver/4811/trunk/egs/wsj/s5/utils/scoring/wer_per_utt_details.pl
+END

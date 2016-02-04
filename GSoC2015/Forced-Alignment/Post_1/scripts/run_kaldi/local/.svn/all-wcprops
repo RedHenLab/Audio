@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/p/kaldi/code/!svn/ver/4882/trunk/egs/librispeech/s5/local
+END
+g2p.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/kaldi/code/!svn/ver/4504/trunk/egs/librispeech/s5/local/g2p.sh
+END
+run_rnnlm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/kaldi/code/!svn/ver/4809/trunk/egs/librispeech/s5/local/run_rnnlm.sh
+END
+run_nnet2.sh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/kaldi/code/!svn/ver/4504/trunk/egs/librispeech/s5/local/run_nnet2.sh
+END
+score.sh
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/kaldi/code/!svn/ver/4504/trunk/egs/librispeech/s5/local/score.sh
+END
+run_nnet2_clean_100.sh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/kaldi/code/!svn/ver/4504/trunk/egs/librispeech/s5/local/run_nnet2_clean_100.sh
+END
+run_data_cleaning.sh
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/kaldi/code/!svn/ver/4789/trunk/egs/librispeech/s5/local/run_data_cleaning.sh
+END
+data_prep.sh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/kaldi/code/!svn/ver/4512/trunk/egs/librispeech/s5/local/data_prep.sh
+END
+download_lm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/kaldi/code/!svn/ver/4882/trunk/egs/librispeech/s5/local/download_lm.sh
+END
+format_data.sh
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/kaldi/code/!svn/ver/4739/trunk/egs/librispeech/s5/local/format_data.sh
+END
+prepare_dict.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/kaldi/code/!svn/ver/4882/trunk/egs/librispeech/s5/local/prepare_dict.sh
+END
+download_and_untar.sh
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/kaldi/code/!svn/ver/4544/trunk/egs/librispeech/s5/local/download_and_untar.sh
+END
+format_lms.sh
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/kaldi/code/!svn/ver/4877/trunk/egs/librispeech/s5/local/format_lms.sh
+END
+run_nnet2_clean_460.sh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/kaldi/code/!svn/ver/4504/trunk/egs/librispeech/s5/local/run_nnet2_clean_460.sh
+END

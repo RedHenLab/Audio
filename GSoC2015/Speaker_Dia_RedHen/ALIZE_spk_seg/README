@@ -1,0 +1,12 @@
+#######
+For more information about the speech/non speech process as well as the speaker diarization steps, refer to the following publication:
+C. Fredouille, S. Bozonnet, and N. W. D. Evans, “The LIA- EURECOM RT‘09 Speaker Diarization System,” in RT’09, NIST Rich Transcription Workshop, Florida, USA, 2009. (http://www.itl.nist.gov/iad/mig/tests/rt/2009/workshop/LIA-EURECOM_paper.pdf)
+Following commands are launched on a unique file (file.prm). The file.sph is not provided for distribution permission reasons.
+#######
+
+
+Usage
+
+sh spk_det.sh <show>.mp4 
+
+For more information read the comments written in script itself

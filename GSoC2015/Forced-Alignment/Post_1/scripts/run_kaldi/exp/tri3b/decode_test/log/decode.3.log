@@ -1,0 +1,19 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri3b/graph_Wug/words.txt exp/tri3b/final.mdl exp/tri3b/graph_Wug/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split20/3/utt2spk scp:data/test/split20/3/cmvn.scp scp:data/test/split20/3/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- | transform-feats exp/tri3b/final.mat ark:- ark:- |" "ark:|gzip -c > exp/tri3b/decode_test/lat.3.gz" 
+# Started at Tue Jun 16 16:03:35 IST 2015
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri3b/graph_Wug/words.txt exp/tri3b/final.mdl exp/tri3b/graph_Wug/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split20/3/utt2spk scp:data/test/split20/3/cmvn.scp scp:data/test/split20/3/feats.scp ark:- | splice-feats --left-context=3 --right-context=3 ark:- ark:- | transform-feats exp/tri3b/final.mat ark:- ark:- |' 'ark:|gzip -c > exp/tri3b/decode_test/lat.3.gz' 
+apply-cmvn --utt2spk=ark:data/test/split20/3/utt2spk scp:data/test/split20/3/cmvn.scp scp:data/test/split20/3/feats.scp ark:- 
+splice-feats --left-context=3 --right-context=3 ark:- ark:- 
+transform-feats exp/tri3b/final.mat ark:- ark:- 
+LOG (apply-cmvn:main():apply-cmvn.cc:146) Applied cepstral mean normalization to 2 utterances, errors on 0
+ForcedAlignment_005 EVIDENCE FOURTHS NATIONALS DODDINGTON TROJAN XEBEC WHITWAM EVENTS CLASSES ILLUMINATION FLUME DONGMEI FAVORABLY ELVIS INLET FILICE SIEVERT ESOPHAGUS HEADED ZITHER CROSSTOWN RIVAL POIRRIER FENCED LIFTOFF LATEST HOUFF PAD 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_005 is -4.11523 over 1536 frames.
+LOG (transform-feats:main():transform-feats.cc:158) Overall average [pseudo-]logdet is -91.0564 over 10411 frames.
+LOG (transform-feats:main():transform-feats.cc:161) Applied transform to 2 utterances; 0 had errors.
+ForcedAlignment_006 OHAIR DIANTHE HARASS ARSONIST ARM HERVE HASSON DUQUESNE HARVATH ASDA CARHART LIFESTYLE HAST MYRA ADVIL TONITE ELEVEN VERVE DAVISON SEVEN EYEWITNESS NUMEROUS PENLAND ZON VATH HURRAH PASSEL VANHOVE SILL VATH HAPP OUTBURST CERTAIN TITHE BLOB BERN EVERYTHING VEST BURHAM REBUILDING FANNIN MAVERICK ENTHUSIAST VERSED VADNEY INSTALLED SERVE VIVA LAVOIE VANESSA VRABEL VOTH JOCK VILLE VRANA DERIDE SIZEABLE THESING DEALER DREMAN NIVER TURBO DISCOVERY VEGH BAUZA NARS AUBURN OFFERINGS ZOOM VERLEY LOIS SINGLE VISA VERGING DOUVILLE COMPLETELY UNLOVED OVERLOOKING UNAFFORDABLE VEAZIE VENTILATION FUELS OFFERS ROOMS ACUSTAR DITCHES AITHNE IODINE VATH LICENSES ANTES ROONE IZZY EHREN GLIDDEN EXILE THOLEN STITCHES BRUNKE PICAS RECLINING REPACKAGE POOLING IODIDE FADS ROSEWICZ TRANSFORMATIONS ATHWART VILLENEUVE ALEICHEM VALUE WARTH TRANSFORM HEREIN SEVEY WITHSTANDING DELIVERY AVAILABLE ELLIOTT JARREAU 
+LOG (gmm-latgen-faster:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:285) Log-like per frame for utterance ForcedAlignment_006 is -4.14314 over 8875 frames.
+LOG (gmm-latgen-faster:main():gmm-latgen-faster.cc:175) Time taken 26.526s: real-time factor assuming 100 frames/sec is 0.254789
+LOG (gmm-latgen-faster:main():gmm-latgen-faster.cc:178) Done 2 utterances, failed for 0
+LOG (gmm-latgen-faster:main():gmm-latgen-faster.cc:180) Overall log-likelihood per frame is -4.13902 over 10411 frames.
+# Accounting: time=27 threads=1
+# Ended (code 0) at Tue Jun 16 16:04:02 IST 2015, elapsed time 27 seconds

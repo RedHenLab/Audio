@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/kaldi/code/!svn/ver/4807/trunk/egs/librispeech/s5/local/lm
+END
+est-gcc4.7.patch
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/p/kaldi/code/!svn/ver/4504/trunk/egs/librispeech/s5/local/lm/est-gcc4.7.patch
+END
+install_festival.sh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/p/kaldi/code/!svn/ver/4504/trunk/egs/librispeech/s5/local/lm/install_festival.sh
+END
+normalize_text.sh
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/p/kaldi/code/!svn/ver/4504/trunk/egs/librispeech/s5/local/lm/normalize_text.sh
+END
+train_lm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/kaldi/code/!svn/ver/4520/trunk/egs/librispeech/s5/local/lm/train_lm.sh
+END

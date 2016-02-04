@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="LIUM_SpkDiarization" default="build" basedir=".">
+	<property name="app.name"     	 value="LIUM Spkeaker Diarization tools"/>
+	<property name="app.version"     value="8.4.1"/>
+	<property name="app.vendor.name" value="LIUM" />
+	<property name="app.vendor.mail" value="spkDiarization@lium.univ-lemans.fr" />
+	<property name="app.vendor.url"  value="http://www-lium.univ-lemans.fr/" />
+
+	<property name="bin.home"        value="${basedir}/bin" />
+	<property name="doc.home"        value="${basedir}/doc" />
+	<property name="doc2.home"        value="${basedir}/doc2" />
+	<property name="lib.home"        value="${basedir}/lib" />
+	<property name="src.home"        value="${basedir}/src" />
+	<property name="src.lium.ester2"        value="${basedir}/src/fr/lium/spkDiarization/system/ester2" />
+	<property name="src.lium.media"        value="${basedir}/src/fr/lium/spkDiarization/system/media" />
+	<property name="src.lium.lib.frontend.8kHz"     value="${basedir}/src/fr/lium/spkDiarization/libFeature/frontend.config.8kHz.xml" />
+	<property name="src.lium.lib.frontend.16kHz"     value="${basedir}/src/fr/lium/spkDiarization/libFeature/frontend.config.16kHz.xml" />
+	<property name="src.lium.lib.frontend.22kHz"     value="${basedir}/src/fr/lium/spkDiarization/libFeature/frontend.config.22kHz.xml" />
+	<property name="src.lium.lib.frontend.44kHz"     value="${basedir}/src/fr/lium/spkDiarization/libFeature/frontend.config.44kHz.xml" />
+		<property name="src.lium.lib.frontend.48kHz"     value="${basedir}/src/fr/lium/spkDiarization/libFeature/frontend.config.48kHz.xml" />
+
+	<property name="dist.home"       value="${basedir}/dist" />
+	<property name="bin.lium.ester2"     value="${bin.home}/fr/lium/spkDiarization/system/ester2" />
+	<property name="bin.lium.media"     value="${bin.home}/fr/lium/spkDiarization/system/media" />
+	<property name="bin.lium.lib.frontend.8kHz"     value="${bin.home}/fr/lium/spkDiarization/libFeature/frontend.config.8kHz.xml" />
+	<property name="bin.lium.lib.frontend.16kHz"     value="${bin.home}/fr/lium/spkDiarization/libFeature/frontend.config.16kHz.xml" />
+	<property name="bin.lium.lib.frontend.22kHz"     value="${bin.home}/fr/lium/spkDiarization/libFeature/frontend.config.22kHz.xml" />
+	<property name="bin.lium.lib.frontend.44kHz"     value="${bin.home}/fr/lium/spkDiarization/libFeature/frontend.config.44kHz.xml" />
+	<property name="bin.lium.lib.frontend.48kHz"     value="${bin.home}/fr/lium/spkDiarization/libFeature/frontend.config.48kHz.xml" />
+    	
+	<property environment="env" />
+
+	<tstamp>
+		<format property="date.now" pattern="MM/dd/yyyy hh:mm aa" />
+	</tstamp>
+
+	<!-- ====================Classpath creation==========================-->
+	<path id="compile.classpath">
+		<pathelement location="${build.home}" />
+		<fileset dir="${lib.home}">
+	    	<include name="*.jar" />
+		</fileset>
+		<fileset dir="/usr/share/java">
+	    	<include name="*.jar" />
+		</fileset>
+	</path>
+
+	<!-- =================Target construction ===========================-->
+	<target name="extra">
+		<!-- ressource -->
+		<copy todir="${bin.lium.ester2}">
+			<fileset dir="${src.lium.ester2}" />
+		</copy>
+		<copy todir="${bin.lium.media}">
+			<fileset dir="${src.lium.media}" />
+		</copy>
+		<copy file="${src.lium.lib.frontend.8kHz}" tofile="${bin.lium.lib.frontend.8kHz}" />
+		<copy file="${src.lium.lib.frontend.16kHz}" tofile="${bin.lium.lib.frontend.16kHz}" />
+		<copy file="${src.lium.lib.frontend.22kHz}" tofile="${bin.lium.lib.frontend.22kHz}" />
+		<copy file="${src.lium.lib.frontend.44kHz}" tofile="${bin.lium.lib.frontend.44kHz}" />
+		<copy file="${src.lium.lib.frontend.48kHz}" tofile="${bin.lium.lib.frontend.48kHz}" />
+	</target>
+
+	<target name="srctgz">
+		<tar destfile="${dist.home}/${ant.project.name}-${app.version}.src.tgz" compression="gzip">
+			<tarfileset dir="${src.home}" />
+		</tar>
+	</target>
+	<!-- ==================== target "help" =============================-->
+	<target name="help">
+		<echo message="Please specify a target!
+			[usage: ant &lt;targetname&gt;]" />
+		<echo message="Here is a list of possible targets: " />
+		<echo message="clean           Delete build, dist and doc dir." />
+		<echo message="prepare             Creates directories if required." />
+		<echo message="compile             Compiles source files." />
+		<echo message="build               Creates dist directory with binaries and source." />
+		<echo message="jar-build               Creates the jar dist directory with binaries  and source." />
+		<echo message="javadoc             Generates javadoc for this application." />
+	</target>
+
+	<!-- ==================== target "clean" =========================-->
+	<target name="clean">
+		<delete dir="${bin.home}" />
+		<delete dir="${doc.home}" />
+		<delete dir="${doc2.home}" />
+	</target>
+
+	<!-- ==================== target "prepare" =========================-->
+	<target name="prepare">
+		<mkdir dir="${bin.home}" />
+	</target>
+
+	<!-- ==================== target "compile" =========================-->
+	<target name="compile">
+		<javac srcdir="${src.home}" destdir="${bin.home}" compiler="javac1.6" encoding="UTF-8" debug="yes" includeantruntime="false">
+			<classpath refid="compile.classpath" />
+		</javac>
+	</target>
+
+	<!-- ==================== target "build" =========================-->
+	<target name="build" depends="prepare,compile,extra,srctgz">
+		<jar destfile="${dist.home}/${ant.project.name}-${app.version}.jar">
+			<manifest>
+				<attribute name="Built-By" value="${app.vendor}"/>
+				<attribute name="Specification-Title" value="${ant.project.name}"/>
+				<attribute name="Specification-Version" value="${app.version}"/>
+				<attribute name="Specification-Vendor-Name" value="${app.vendor.name}"/>
+				<attribute name="Specification-Vendor-Mail" value="${app.vendor.mail}"/>
+				<attribute name="Specification-Vendor-URL" value="${app.vendor.url}"/>
+				<attribute name="Implementation-Title" value="${ant.project.name}"/>
+				<attribute name="Implementation-Version" value="${app.version} ${date.now}"/>
+				<attribute name="Implementation-Vendor" value="${app.vendor}"/>
+				<attribute name="Main-Class" value="fr.lium.spkDiarization.system.Diarization"/>
+				<attribute name="Class-Path" value="./ "/>
+			</manifest>
+            <fileset dir="${bin.home}"/>
+			<fileset file="${basedir}/build.xml" />
+			<fileset file="${basedir}/licence.html" />
+			<fileset file="${basedir}/README.html" />
+			<fileset file="${dist.home}/${ant.project.name}-${app.version}.src.tgz" />
+            <zipfileset excludes="META-INF/*.SF" src="${lib.home}/mp3plugin.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${lib.home}/ffmpeg-1.2-macosx-x86_64.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${lib.home}/opencv-2.4.5-macosx-x86_64.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${lib.home}/javacpp.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${lib.home}/javacv-macosx-x86_64.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${lib.home}/javacv-linux-x86.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${lib.home}/javacv-linux-x86_64.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${lib.home}/javacv-windows-x86.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${lib.home}/javacv-windows-x86_64.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${lib.home}/javacv.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${lib.home}/java-getopt-1.0.13.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${lib.home}/jsapi.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${lib.home}/sphinx4.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${lib.home}/junit-4.8.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${lib.home}/xstream-1.4.4.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${lib.home}/ejml-0.23.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${lib.home}/batch.jar"/>
+		</jar>
+	</target>
+
+	<!-- ==================== target "javadoc" =========================-->
+	<target name="javadoc" >
+		<javadoc classpathref="compile.classpath" sourcepath="${src.home}" destdir="${dist.doc.home}" packagenames="*" encoding="UTF-8">
+		
+		
+		<!--        <javadoc  classpathref="compile.classpath" sourcepath="${src.home}" packagenames="org.umlgraph.doclet.*" destdir="${dist.doc.home}"  private="true"> -->
+                <doclet name="org.umlgraph.doclet.UmlGraphDoc" path="${lib.home}/UMLGraph.jar">
+                        <param name="-inferrel"/>
+                        <param name="-inferdep"/>
+                        <param name="-hide" value="java.*"/>
+                        <param name="-collpackages" value="java.util.*"/>
+                        <param name="-qualify"/>
+                        <param name="-postfixpackage"/>
+                        <param name="-nodefontsize" value="9"/>
+                        <param name="-nodefontpackagesize" value="7"/>
+                        <param name="-link" value="http://java.sun.com/j2se/1.5.0/docs/guide/javadoc/doclet/spec"/>
+                        <param name="-link" value="http://java.sun.com/j2se/1.5/docs/api"/>
+                </doclet>
+        </javadoc>
+		
+	</target>
+</project>

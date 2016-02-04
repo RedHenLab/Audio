@@ -1,0 +1,395 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/p/kaldi/code/!svn/ver/4904/trunk/egs/wsj/s5/utils
+END
+map_arpa_lm.pl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/kaldi/code/!svn/ver/4663/trunk/egs/wsj/s5/utils/map_arpa_lm.pl
+END
+make_lexicon_fst.pl
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/kaldi/code/!svn/ver/2493/trunk/egs/wsj/s5/utils/make_lexicon_fst.pl
+END
+fix_data_dir.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/kaldi/code/!svn/ver/4703/trunk/egs/wsj/s5/utils/fix_data_dir.sh
+END
+format_lm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/kaldi/code/!svn/ver/4504/trunk/egs/wsj/s5/utils/format_lm.sh
+END
+summarize_warnings.pl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/kaldi/code/!svn/ver/939/trunk/egs/wsj/s5/utils/summarize_warnings.pl
+END
+show_lattice.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/kaldi/code/!svn/ver/4361/trunk/egs/wsj/s5/utils/show_lattice.sh
+END
+remove_data_links.sh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/kaldi/code/!svn/ver/4493/trunk/egs/wsj/s5/utils/remove_data_links.sh
+END
+subset_data_dir_tr_cv.sh
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/kaldi/code/!svn/ver/2787/trunk/egs/wsj/s5/utils/subset_data_dir_tr_cv.sh
+END
+fix_ctm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/kaldi/code/!svn/ver/2344/trunk/egs/wsj/s5/utils/fix_ctm.sh
+END
+segmentation.pl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/kaldi/code/!svn/ver/2990/trunk/egs/wsj/s5/utils/segmentation.pl
+END
+convert_slf_parallel.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/kaldi/code/!svn/ver/4490/trunk/egs/wsj/s5/utils/convert_slf_parallel.sh
+END
+summarize_logs.pl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/p/kaldi/code/!svn/ver/4249/trunk/egs/wsj/s5/utils/summarize_logs.pl
+END
+split_scp.pl
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/kaldi/code/!svn/ver/4890/trunk/egs/wsj/s5/utils/split_scp.pl
+END
+reverse_lm_test.sh
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/kaldi/code/!svn/ver/4033/trunk/egs/wsj/s5/utils/reverse_lm_test.sh
+END
+ln.pl
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/p/kaldi/code/!svn/ver/966/trunk/egs/wsj/s5/utils/ln.pl
+END
+create_data_link.pl
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/kaldi/code/!svn/ver/4493/trunk/egs/wsj/s5/utils/create_data_link.pl
+END
+subset_scp.pl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/kaldi/code/!svn/ver/4673/trunk/egs/wsj/s5/utils/subset_scp.pl
+END
+write_kwslist.pl
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/kaldi/code/!svn/ver/4701/trunk/egs/wsj/s5/utils/write_kwslist.pl
+END
+reduce_data_dir_by_reclist.sh
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/p/kaldi/code/!svn/ver/1612/trunk/egs/wsj/s5/utils/reduce_data_dir_by_reclist.sh
+END
+validate_data_dir.sh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/kaldi/code/!svn/ver/4683/trunk/egs/wsj/s5/utils/validate_data_dir.sh
+END
+parse_options.sh
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/kaldi/code/!svn/ver/4681/trunk/egs/wsj/s5/utils/parse_options.sh
+END
+mkgraph.sh
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/kaldi/code/!svn/ver/4734/trunk/egs/wsj/s5/utils/mkgraph.sh
+END
+perturb_data_dir_speed.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/kaldi/code/!svn/ver/4858/trunk/egs/wsj/s5/utils/perturb_data_dir_speed.sh
+END
+subset_data_dir.sh
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/kaldi/code/!svn/ver/4409/trunk/egs/wsj/s5/utils/subset_data_dir.sh
+END
+format_lm_sri.sh
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/kaldi/code/!svn/ver/4877/trunk/egs/wsj/s5/utils/format_lm_sri.sh
+END
+ssh.pl
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/kaldi/code/!svn/ver/4766/trunk/egs/wsj/s5/utils/ssh.pl
+END
+add_lex_disambig.pl
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/kaldi/code/!svn/ver/4880/trunk/egs/wsj/s5/utils/add_lex_disambig.pl
+END
+copy_data_dir.sh
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/kaldi/code/!svn/ver/4890/trunk/egs/wsj/s5/utils/copy_data_dir.sh
+END
+reverse_lm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/kaldi/code/!svn/ver/4619/trunk/egs/wsj/s5/utils/reverse_lm.sh
+END
+kwslist_post_process.pl
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/kaldi/code/!svn/ver/2430/trunk/egs/wsj/s5/utils/kwslist_post_process.pl
+END
+remove_oovs.pl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/kaldi/code/!svn/ver/854/trunk/egs/wsj/s5/utils/remove_oovs.pl
+END
+combine_data.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/kaldi/code/!svn/ver/3931/trunk/egs/wsj/s5/utils/combine_data.sh
+END
+sym2int.pl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/p/kaldi/code/!svn/ver/4241/trunk/egs/wsj/s5/utils/sym2int.pl
+END
+int2sym.pl
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/p/kaldi/code/!svn/ver/990/trunk/egs/wsj/s5/utils/int2sym.pl
+END
+make_unigram_grammar.pl
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/kaldi/code/!svn/ver/939/trunk/egs/wsj/s5/utils/make_unigram_grammar.pl
+END
+best_wer.sh
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/kaldi/code/!svn/ver/4100/trunk/egs/wsj/s5/utils/best_wer.sh
+END
+utt2spk_to_spk2utt.pl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/p/kaldi/code/!svn/ver/4051/trunk/egs/wsj/s5/utils/utt2spk_to_spk2utt.pl
+END
+spk2utt_to_utt2spk.pl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/kaldi/code/!svn/ver/878/trunk/egs/wsj/s5/utils/spk2utt_to_utt2spk.pl
+END
+create_split_dir.pl
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/p/kaldi/code/!svn/ver/4766/trunk/egs/wsj/s5/utils/create_split_dir.pl
+END
+split_data.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/kaldi/code/!svn/ver/4890/trunk/egs/wsj/s5/utils/split_data.sh
+END
+queue.pl
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/p/kaldi/code/!svn/ver/4810/trunk/egs/wsj/s5/utils/queue.pl
+END
+convert_slf.pl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/kaldi/code/!svn/ver/3492/trunk/egs/wsj/s5/utils/convert_slf.pl
+END
+shuffle_list.pl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/kaldi/code/!svn/ver/4371/trunk/egs/wsj/s5/utils/shuffle_list.pl
+END
+add_disambig.pl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/kaldi/code/!svn/ver/854/trunk/egs/wsj/s5/utils/add_disambig.pl
+END
+s2eps.pl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/p/kaldi/code/!svn/ver/854/trunk/egs/wsj/s5/utils/s2eps.pl
+END
+dict_dir_add_pronprobs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/kaldi/code/!svn/ver/4902/trunk/egs/wsj/s5/utils/dict_dir_add_pronprobs.sh
+END
+build_const_arpa_lm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/kaldi/code/!svn/ver/4877/trunk/egs/wsj/s5/utils/build_const_arpa_lm.sh
+END
+slurm.pl
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/p/kaldi/code/!svn/ver/4766/trunk/egs/wsj/s5/utils/slurm.pl
+END
+pinyin_map.pl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/kaldi/code/!svn/ver/1635/trunk/egs/wsj/s5/utils/pinyin_map.pl
+END
+run.pl
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/kaldi/code/!svn/ver/4786/trunk/egs/wsj/s5/utils/run.pl
+END
+eps2disambig.pl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/kaldi/code/!svn/ver/854/trunk/egs/wsj/s5/utils/eps2disambig.pl
+END
+gen_topo.pl
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/kaldi/code/!svn/ver/2294/trunk/egs/wsj/s5/utils/gen_topo.pl
+END
+filt.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/p/kaldi/code/!svn/ver/4606/trunk/egs/wsj/s5/utils/filt.py
+END
+filter_scps.pl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/kaldi/code/!svn/ver/4900/trunk/egs/wsj/s5/utils/filter_scps.pl
+END
+apply_map.pl
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/p/kaldi/code/!svn/ver/4673/trunk/egs/wsj/s5/utils/apply_map.pl
+END
+convert_ctm.pl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/p/kaldi/code/!svn/ver/4713/trunk/egs/wsj/s5/utils/convert_ctm.pl
+END
+make_phone_bigram_lang.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/p/kaldi/code/!svn/ver/4713/trunk/egs/wsj/s5/utils/make_phone_bigram_lang.sh
+END
+find_arpa_oovs.pl
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/kaldi/code/!svn/ver/854/trunk/egs/wsj/s5/utils/find_arpa_oovs.pl
+END
+filter_scp.pl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/p/kaldi/code/!svn/ver/4900/trunk/egs/wsj/s5/utils/filter_scp.pl
+END
+validate_dict_dir.pl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/kaldi/code/!svn/ver/4880/trunk/egs/wsj/s5/utils/validate_dict_dir.pl
+END
+validate_lang.pl
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/kaldi/code/!svn/ver/4877/trunk/egs/wsj/s5/utils/validate_lang.pl
+END
+reverse_arpa.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/kaldi/code/!svn/ver/1640/trunk/egs/wsj/s5/utils/reverse_arpa.py
+END
+reduce_data_dir.sh
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/p/kaldi/code/!svn/ver/1612/trunk/egs/wsj/s5/utils/reduce_data_dir.sh
+END
+prepare_lang.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/p/kaldi/code/!svn/ver/4880/trunk/egs/wsj/s5/utils/prepare_lang.sh
+END
+rnnlm_compute_scores.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/kaldi/code/!svn/ver/4877/trunk/egs/wsj/s5/utils/rnnlm_compute_scores.sh
+END

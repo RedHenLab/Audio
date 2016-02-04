@@ -1,0 +1,2 @@
+compute-cmvn-stats --spk2utt=ark:data/test/spk2utt scp:data/test/feats.scp ark,scp:/home/tejas/SaiKrishna/prep_data_for_TTS_v2/scripts/run_kaldi/mfcc/cmvn_test.ark,/home/tejas/SaiKrishna/prep_data_for_TTS_v2/scripts/run_kaldi/mfcc/cmvn_test.scp 
+LOG (compute-cmvn-stats:main():compute-cmvn-stats.cc:171) Done accumulating CMVN stats for 32 utterances; 0 had errors.

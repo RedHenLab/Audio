@@ -1,0 +1,23 @@
+K 14
+svn:executable
+V 1
+*
+K 13
+svn:mergeinfo
+V 1088
+/sandbox/dan/egs/wsj/s5/steps/nnet2/train_pnorm_fast.sh:1504-1801,4374-4408,4411
+/sandbox/dan/egs/wsj/s5/steps/nnet2/train_pnorm_simple.sh:4374-4503
+/sandbox/dan2/egs/wsj/s5/steps/nnet2/train_pnorm_fast.sh:2775-2829,2832-3292
+/sandbox/discrim/egs/wsj/s5/steps/nnet2/train_pnorm_fast.sh:234-658
+/sandbox/karel/egs/wsj/s5/steps/nnet2/train_pnorm_fast.sh:270-942,1522-1532
+/sandbox/kws/egs/wsj/s5/steps/nnet2/train_pnorm_fast.sh:1533-1557
+/sandbox/language_id/egs/wsj/s5/steps/nnet2/train_pnorm_multisplice2.sh:4174-4691
+/sandbox/nshmyrev/egs/wsj/s5/steps/nnet2/train_pnorm_fast.sh:3830-3854
+/sandbox/oplatek/egs/wsj/s5/steps/nnet2/train_pnorm_fast.sh:2513-2541
+/sandbox/pitch/egs/wsj/s5/steps/nnet2/train_pnorm_fast.sh:3126-3251
+/sandbox/sail/egs/wsj/s5/steps/nnet2/train_pnorm_fast.sh:3642-3712,3716-3797
+/sandbox/sharedlibs/egs/wsj/s5/steps/nnet2/train_pnorm_fast.sh:2585-2662
+/sandbox/tanel/egs/wsj/s5/steps/nnet2/train_pnorm_fast.sh:2623-2658
+/sandbox/thang-project/egs/wsj/s5/steps/nnet2/train_pnorm_fast.sh:233-258
+/trunk/egs/wsj/s5/steps/nnet2/train_pnorm_fast.sh:3325-4087,4093-4356
+END

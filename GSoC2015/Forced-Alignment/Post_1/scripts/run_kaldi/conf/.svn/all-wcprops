@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/p/kaldi/code/!svn/ver/4868/trunk/egs/librispeech/s5/conf
+END
+online_pitch.conf
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/kaldi/code/!svn/ver/4868/trunk/egs/librispeech/s5/conf/online_pitch.conf
+END
+queue_nok20.conf
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/kaldi/code/!svn/ver/4765/trunk/egs/librispeech/s5/conf/queue_nok20.conf
+END
+mfcc_hires.conf
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/p/kaldi/code/!svn/ver/4504/trunk/egs/librispeech/s5/conf/mfcc_hires.conf
+END
+decode.config
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/kaldi/code/!svn/ver/4504/trunk/egs/librispeech/s5/conf/decode.config
+END
+online_cmvn.conf
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/p/kaldi/code/!svn/ver/4504/trunk/egs/librispeech/s5/conf/online_cmvn.conf
+END
+mfcc.conf
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/p/kaldi/code/!svn/ver/4504/trunk/egs/librispeech/s5/conf/mfcc.conf
+END

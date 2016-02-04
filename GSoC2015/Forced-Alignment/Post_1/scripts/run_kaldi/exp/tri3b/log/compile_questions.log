@@ -1,0 +1,8 @@
+compile-questions data/lang/topo exp/tri3b/questions.int exp/tri3b/questions.qst 
+WARNING (compile-questions:main():compile-questions.cc:107) 1 duplicate questions present in exp/tri3b/questions.int
+LOG (compile-questions:ProcessTopo():compile-questions.cc:51) Max # pdf classes is 5
+LOG (compile-questions:main():compile-questions.cc:123) Setting questions for phonetic-context position 0
+LOG (compile-questions:main():compile-questions.cc:123) Setting questions for phonetic-context position 1
+LOG (compile-questions:main():compile-questions.cc:123) Setting questions for phonetic-context position 2
+LOG (compile-questions:main():compile-questions.cc:134) Setting questions for hmm-position [hmm-position ranges from 0 to 4]
+LOG (compile-questions:main():compile-questions.cc:138) Wrote questions to exp/tri3b/questions.qst

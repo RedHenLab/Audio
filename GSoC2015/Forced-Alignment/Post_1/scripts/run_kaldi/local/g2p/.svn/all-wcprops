@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/p/kaldi/code/!svn/ver/4807/trunk/egs/librispeech/s5/local/g2p
+END
+train_g2p.sh
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/p/kaldi/code/!svn/ver/4504/trunk/egs/librispeech/s5/local/g2p/train_g2p.sh
+END

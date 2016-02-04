@@ -1,0 +1,10 @@
+# compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/test/wav_test.13.scp ark:- | copy-feats --compress=true ark:- ark,scp:/home/tejas/SaiKrishna/prep_data_for_TTS_v2/scripts/run_kaldi/mfcc/raw_mfcc_test.13.ark,/home/tejas/SaiKrishna/prep_data_for_TTS_v2/scripts/run_kaldi/mfcc/raw_mfcc_test.13.scp 
+# Started at Tue Jun 16 15:54:30 IST 2015
+#
+compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/test/wav_test.13.scp ark:- 
+copy-feats --compress=true ark:- ark,scp:/home/tejas/SaiKrishna/prep_data_for_TTS_v2/scripts/run_kaldi/mfcc/raw_mfcc_test.13.ark,/home/tejas/SaiKrishna/prep_data_for_TTS_v2/scripts/run_kaldi/mfcc/raw_mfcc_test.13.scp 
+VLOG[2] (compute-mfcc-feats:main():compute-mfcc-feats.cc:178) Processed features for key ForcedAlignment_025
+LOG (compute-mfcc-feats:main():compute-mfcc-feats.cc:181)  Done 1 out of 1 utterances.
+LOG (copy-feats:main():copy-feats.cc:100) Copied 1 feature matrices.
+# Accounting: time=1 threads=1
+# Ended (code 0) at Tue Jun 16 15:54:31 IST 2015, elapsed time 1 seconds

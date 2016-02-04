@@ -1,0 +1,2 @@
+cluster-phones exp/tri3b/treeacc data/lang/phones/sets.int exp/tri3b/questions.int 
+LOG (cluster-phones:main():cluster-phones.cc:129) Wrote questions to exp/tri3b/questions.int

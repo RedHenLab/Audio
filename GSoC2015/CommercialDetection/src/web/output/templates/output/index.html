@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+    <html>
+        <head>
+            <title>Results of commercial detection</title>
+            <link rel="stylesheet" type="text/css" href="/static/output/output.css">
+            <script type="text/javascript" src="/static/output/output.js"></script>
+            <link href="http://vjs.zencdn.net/4.11/video-js.css" rel="stylesheet">
+            <script src="http://vjs.zencdn.net/4.11/video.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+            
+        </head>
+        
+        <body> 
+            <div class="container">
+                <div class="video">
+                    <br>
+                    <br>
+                    <div class="video-js vjs-default-skin vjs-controls-enabled vjs-has-started vjs-paused vjs-user-inactive" poster="/img/poster.jpg" preload="none" id="home_video">
+                        {% load staticfiles %}
+                        <video id="mainvid" class="vjs-default-skin" controls data-setup='{}' style="text-align:center;"
+                            src="/static/output/{{video_path}}" type="video/webm"></video>
+                    </div>
+<!--                    <video id="mainvid" name="mainvid" autobuffer="autobuffer" controls="controls" style="text-align:center;">-->
+<!--                        <source src="/static/output/{{video_path}}" type="video/webm">-->
+<!--                        Your browser does not support HTML5 video.-->
+<!--                    </video>-->
+                    <br>
+                    <br>
+                    <p>
+                        <h4>Instructions</h4>
+                        <ul>
+                            <li>Click play in the video player to start playing the video</li>
+                            <li>Use "seek" button to seek to the starting of each video block</li>
+                            <li>When you tag a block as a commercial, always start it with 'ad', else the system will not recognize it</li>
+                            <li>Once you have tagged all content, click on save changes and the system will update the db accordingly</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="output" id="output">
+                    {% block content %}
+                    {% include "output/labels.html" with list=item_list %}
+                    {% endblock %}
+                </div>
+                </form>
+            </div>
+        </body> 
+    </html>

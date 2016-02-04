@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/p/kaldi/code/!svn/ver/4868/trunk/egs/librispeech/s5/local/online_pitch
+END
+run_nnet2_ms.sh
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/p/kaldi/code/!svn/ver/4868/trunk/egs/librispeech/s5/local/online_pitch/run_nnet2_ms.sh
+END
+run_nnet2_common.sh
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/p/kaldi/code/!svn/ver/4868/trunk/egs/librispeech/s5/local/online_pitch/run_nnet2_common.sh
+END
