@@ -1,0 +1,6 @@
+audio/2015-05-01_AlJazeera/2015-05-01_AlJazeera_Commercial_AmericaTonight.mp3
+audio/2015-05-01_AlJazeera/2015-05-01_AlJazeera_Commercial_Cancer.mp3
+audio/2015-05-01_AlJazeera/2015-05-01_AlJazeera_Commercial_CleverGrip.mp3
+audio/2015-05-01_AlJazeera/2015-05-01_AlJazeera_Commercial_CreditCard.mp3
+audio/2015-05-01_AlJazeera/2015-05-01_AlJazeera_Commercial_OrderNow.mp3
+audio/2015-05-01_AlJazeera/2015-05-01_AlJazeera_Commercial_Vietnam.mp3
