@@ -1,0 +1,1 @@
+config:x86:x86_64:generic:linux:gcc 4.4.7 (GCC) 20120313 (Red Hat 4.4.7-4):--enable-gpl --enable-postproc --enable-swscale --enable-avfilter --enable-libmp3lame --enable-libvorbis --enable-libtheora --enable-libx264 --enable-libspeex --enable-shared --enable-pthreads --enable-libopenjpeg --enable-libfaac --enable-nonfree --enable-libvpx
