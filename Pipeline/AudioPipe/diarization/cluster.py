@@ -700,4 +700,4 @@ if __name__ == '__main__':
                                               num_seg_iters, seg_length)
     # Write out RTTM and GMM parameter files
     diarizer.write_to_RTTM(outfile, sp, meeting_name, most_likely, num_gmms, seg_length)
-    diarizer.write_to_GMM(gmmfile)
+    #diarizer.write_to_GMM(gmmfile)

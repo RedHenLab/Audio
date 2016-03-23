@@ -17,5 +17,5 @@ for net in networks :
           audio1 = net1+"/"+audio
 	  mfcc =  seg_net+"/"+audio.split(".")[0]+".seg.feat.gauss.htk"
 	  print "extracting MFCC features from  "+audio1+" file in "+net+" Network"
-	  print commands.getstatusoutput("./tools/htk/bin/HCopy -C ./tools/htk/config.mfcc "+audio1+" "+mfcc)
+	  print commands.getstatusoutput("~/.local/bin/HCopy -C ./config.mfcc "+audio1+" "+mfcc)
 	  print "Features Extacted"

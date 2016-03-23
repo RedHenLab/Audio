@@ -11,7 +11,7 @@ class GMMSet(object):
 
     def fit_new(self, x, label):
         self.y.append(label)
-        gmm = GMM(self.gmm_order, x.shape[1], cvtype=1)
+        gmm = GMM(self.gmm_order, x.shape[1], cvtype='full')
         gmm.train(x, max_em_iters = 100, min_em_iters = 10)
         self.gmms.append(gmm)
 

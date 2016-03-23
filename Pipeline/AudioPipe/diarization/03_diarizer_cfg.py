@@ -4,10 +4,11 @@
 import sys,commands
 data_dir = sys.argv[1] ## extracted ".wav" folder path
 seg_dir = data_dir+"_mfcc" 
-dia_dir = data_dir+"_cfg"
+cfg_dir = data_dir+"_cfg"
+dia_dir = data_dir+"_dia"
 
 networks = commands.getstatusoutput("ls "+data_dir)[1].split()
-home_path = "/home/kxs675/pycasp" # set path to home folder of pycasp
+home_path = "/home/hxx124/Pipeline/Audio/Pipeline/AudioPipe/diarization" # set path to home folder of pycasp
 
 for net in networks :
      net1 = data_dir+"/"+net
@@ -17,7 +18,7 @@ for net in networks :
      commands.getstatusoutput("mkdir -p "+dia_net)
      audio_files = commands.getstatusoutput("ls "+net1)[1].split()
      for audio in audio_files:
-	  f = open(dia_net+"/"+audio.split(".")[0]+".cfg",'w')
+	  f = open(cfg_dir+"/"+audio.split(".")[0]+".cfg",'w')
           audio1 = net1+"/"+audio
 	  
 	  f.write("[Diarizer]\n")
