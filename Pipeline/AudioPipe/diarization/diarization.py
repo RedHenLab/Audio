@@ -44,6 +44,11 @@ def Diarization(audio, dest_rttm='temp_rttm', init_cluster=20, dest_mfcc='temp_m
     cluster_path = os.path.join(os.path.dirname(os.path.abspath(current_module.__file__)), "cluster.py")
     print commands.getstatusoutput("python "+cluster_path+" -c "+cfg)
     print commands.getstatusoutput("rm -rf "+audio_dir)
+    fields = "TaskName FilenName 1 start_secs dur_secs <NA> <NA> speaker_id <NA>\n"
+    with open(rttm, 'r+') as f:
+        content = f.read()
+        f.seek(0, 0)
+        f.write(fields.rstrip('\r\n') + '\n' + content)
     return rttm
 
     
