@@ -6,7 +6,7 @@ VID|640x352|1920x1088
 SRC|UCLA Library
 CMT|First Republican Candidates Debate
 LBT|2015-08-06 17:50 America/Los_Angeles
-GENR_02|2016-03-28 16:38|Source_Program=SpeakerRec.py Data/Model/Gender/gender.model|Source_Person=He Xu
+GENR_02|2016-03-31 19:30|Source_Program=SpeakerRec.py Data/Model/Gender/gender.model|Source_Person=He Xu
 20150807005002.000|20150807005007.000|GENR_02|Gender=Male|Log Likelihood=-19.4959857925
 20150807005007.000|20150807005012.000|GENR_02|Gender=Male|Log Likelihood=-21.846795058
 20150807005012.000|20150807005017.000|GENR_02|Gender=Male|Log Likelihood=-20.9711321077
