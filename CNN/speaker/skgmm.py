@@ -9,9 +9,12 @@ class GMMSet(object):
         self.gmm_order = gmm_order
         self.y = []
 
-    def fit_new(self, x, label):
+    def fit_new(self, x, label, gmm_order):
         self.y.append(label)
-        gmm = GMM(self.gmm_order)
+        if gmm_order=None:
+            gmm = GMM(self.gmm_order)
+        else:
+            gmm = GMM(gmm_order)
         gmm.fit(x)
         self.gmms.append(gmm)
         return gmm

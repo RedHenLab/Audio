@@ -65,10 +65,10 @@ class GMMRec(object):
     def _get_gmm_set(self):
         return GMMSet()
 
-    def train(self):
+    def train(self, gmm_order=None):
         for name, feats, model in zip(self.classes, self.features, self.models):
             if (name not in self.gmmset.y) and (name is not None) :
-                gmm = self.gmmset.fit_new(feats, name)
+                gmm = self.gmmset.fit_new(feats, name, gmm_order)
                 if model is not None:
                     self.dump(model, part=gmm)
             else:
