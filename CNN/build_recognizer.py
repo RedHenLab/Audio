@@ -65,15 +65,11 @@ parser.add_argument(
 parser.add_argument(
     '-s', '--spk', dest='spk_fl', type=str,
     help='file that contains a list of speakers')
-parser.add_argument(
-    '-o', '--out', dest='out_dir', type=str,
-    help='output directory to place the trained models')
 
 args = parser.parse_args()
 
 data_dir = args.data_dir
 spk_fl = args.spk_fl
-out_dir = args.out_dir
 
 #Read in the list
 spk_ls = from_jsonfile(spk_fl)
