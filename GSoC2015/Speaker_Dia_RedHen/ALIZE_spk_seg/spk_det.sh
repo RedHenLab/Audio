@@ -1,6 +1,3 @@
-s scripts a mp4 file and does the diarization of it using GMM based method to do speaker diarization ###############
-
-
 inp=$1 # input mp4 file
 
 audio=".wav"
